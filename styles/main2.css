@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    height: 100%;
+    background-color: #111;
+    box-sizing: border-box;
+}
+
+  
+h1 {
+	color: #fff;
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	
+}
+
+.contenedor{
+    background-color: gray;
+    width: 70%;
+    margin: 200px auto 0 auto;
+    border-radius: 10px;
+    font-family: helvetica;
+  }
+  
+#header {
+    display: flex;
+    justify-content: center;
+  }
+  
+#header > button{
+	outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: lime;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.agregar{
+    padding:10px;
+    outline: none;
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  tr {
+    width: 100%;
+    display: flex;
+  }
+  
+  td {
+    padding: 20px;
+  }
+  
+  .completado {
+    background-color: lightgreen;
+  }
+  
+  span {
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  span:hover {
+    background-color: red;
+    color: white;
+  }
+  
+  .exito {
+    background-color: green;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    animation: slide-up 1s ease;
+  }
+  
+  .fallo {
+    background-color: red;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    animation: slide-up 1s ease;
+  }
+  
+@keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
