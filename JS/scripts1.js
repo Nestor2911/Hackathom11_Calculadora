@@ -1,4 +1,4 @@
- //Declaracion de variables
+
  var num1 = 0;
  var num2 = 0;
  var opera;
@@ -31,7 +31,7 @@ function darC(){
 }
 
 
-//Esta función realiza las distintas operaciones aritméticas en función del botón pulsado
+
 function operar(valor){
  if (num1 == 0){
      num1 = parseFloat(document.getElementById("valor_numero").value);
